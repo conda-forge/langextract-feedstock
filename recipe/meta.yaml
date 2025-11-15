@@ -1,5 +1,5 @@
 {% set name = "langextract" %}
-{% set version = "1.0.9" %}
+{% set version = "1.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langextract-{{ version }}.tar.gz
-  sha256: 4941f1619f3e3df82b38858382e4f713b6f992f2756c9233bbb5f1b0e8723797
+  sha256: 856672a8d8b0184d7154263e8d046045c822c777ebc23cb1922d580814e2b21f
 
 build:
   noarch: python
@@ -27,11 +27,12 @@ requirements:
     - aiohttp >=3.8.0
     - async-timeout >=4.0.0
     - exceptiongroup >=1.1.0
-    - google-genai >=0.1.0
+    - google-cloud-storage >=2.14.0
+    - google-genai >=1.39.0
     - ml-collections >=0.1.0
     - more-itertools >=8.0.0
     - numpy >=1.20.0
-    - openai >=0.27.0
+    - openai >=1.50.0
     - pandas >=1.3.0
     - pydantic >=1.8.0
     - python-dotenv >=0.19.0
