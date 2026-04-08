@@ -1,5 +1,5 @@
 {% set name = "langextract" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/langextract-{{ version }}.tar.gz
-  sha256: a9a5662d03048b1783d80b70d9b1aea0755db2530984e0030b15d6b25b929012
+  sha256: 475ba40742573f66fa6a3b46f8c5cab93c70890c73ae1dde74502f6b27fdecc1
 
 build:
   noarch: python
