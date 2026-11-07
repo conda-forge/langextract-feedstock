@@ -1,5 +1,5 @@
 {% set name = "langextract" %}
-{% set version = "1.7.1" %}
+{% set version = "1.7.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/langextract-{{ version }}.tar.gz
-  sha256: c2a976378a718ec4be448629b2b44d46e2e29b334ce0d75e99cd07aaedf0a47c
+  sha256: 4b80ae0a94378ef3c009dd7dc6af5948396a3d4f8648aedc4b486fe0f73503fd
 
 build:
   noarch: python
